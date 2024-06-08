@@ -11,3 +11,7 @@ module_name:
     type: str
     help: What is your Python module name?
 
+_jinja_extensions:
+- copier_templates_extensions.TemplateExtensionLoader
+- extensions/context.py:ContextUpdater
+- extensions/slugify.py:SlugifyExtension
