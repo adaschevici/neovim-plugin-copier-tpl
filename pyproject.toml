@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "neovim-plugin-copier-tpl"
+version = "0.1.0"
+description = "Copier template for building neovim plugins"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+copier = "^9.2.0"
+copier-templates-extensions = "^0.3.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
