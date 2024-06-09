@@ -1,2 +1,2 @@
-# neovim-plugin-copier-tpl
-Template for building new neovim plugins
+# omniarch-copier-tpl
+Template for building new projects
