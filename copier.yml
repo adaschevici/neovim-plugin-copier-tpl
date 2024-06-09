@@ -9,6 +9,14 @@ project_type:
         - golang-cli
         - python-cli
 
+ci:
+    type: str
+    help: What Continuous Integration service do you want to use?
+    choices:
+        GitHub CI: github
+        GitLab CI: gitlab
+    default: github
+
 project_name:
     type: str
     help: What is your project name?
